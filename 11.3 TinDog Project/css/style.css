@@ -1,0 +1,118 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.align-items{
+  align-items: center !important;
+}
+.first{
+  margin-top:38px;
+  padding: 0%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width:1320px;
+ 
+  margin-right:25%;
+  
+
+}
+
+.dog{
+  border-radius: 50%;
+  margin-top:48px;
+  margin-bottom: 10px;
+}
+.row.g-5{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:20%;
+  padding-top: 100px;
+  padding-bottom: 0%;
+  height: 728px;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.btn-primary{
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.btn-outline-secondary{
+  border-color: white;
+  color: white;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.p-5{
+  background-color: (var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+  
+}
+#features{
+  height: 300px;
+}
+.test{
+  margin-left: 15%;
+  /* height: 30px;
+  width:170px; */
+}
+.tbl{
+  margin-left: 18%;
+  
+}
+.p-5.text-center.bg-body-tertiary{
+  background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+  padding-bottom: 80px;
+}
+
+.card-header{
+  background-color: var(--bs-card-cap-bg);
+}
+.card-header.text-bg-primary{
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-border-opacity))!important;
+  border-color: rgba(var(--bs-dark-rgb),var(--bs-border-opacity))!important;
+}
+.card.border-primary{
+  border-color: rgba(var(--bs-dark-rgb),var(--bs-border-opacity))!important;
+
+}
+.w-100.btn.btn-lg.btn-outline-primary{
+  
+  color: rgba(var(--bs-dark-rgb),var(--bs-border-opacity))!important;
+}
+.w-100{
+  border-color: rgba(var(--bs-dark-rgb),var(--bs-border-opacity))!important;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-border-opacity))!important;
+}
+.w-100.btn.btn-lg.btn-primary.blk{
+  color: white;
+}
+#footer{
+  
+  display: flex;
+ 
+  align-items: center;
+  padding-left:500px;
+  
+  height: 304px;
+}
